@@ -1,0 +1,25 @@
+//1- I will create Class at first.
+//2- now we will create main method.
+/*3- main method we We call 
+*/the commands in the class file.
+//4-in class file we write object or constructor..
+//5-we write now order in constructor.
+/*6-We recall the command that we wrote 
+in the constructor through the main
+ */ method so will create class object.
+//7- finally we show order which we write
+it through ((Systout)) order
+
+ class Learn_java{
+ Learn_java(){
+  String name;
+  name = "learn how to create Java file";
+  System.out.print(name);
+}
+ public static void main (string[] args){
+  Learn_java learn_java=new Learn_java();
+}
+}
+
+output:
+learn how to create Java file
